@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	sdkws "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	sdkws "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	unRelationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	unRelationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

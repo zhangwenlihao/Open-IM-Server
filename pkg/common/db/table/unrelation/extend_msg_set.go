@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 )
 
 const (

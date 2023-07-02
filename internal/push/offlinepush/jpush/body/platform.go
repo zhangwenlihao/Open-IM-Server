@@ -2,7 +2,8 @@ package body
 
 import (
 	"errors"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
+
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
 )
 
 const (

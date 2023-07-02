@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
+import "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
 
 type Options map[string]bool
 type OptionsOpt func(Options)

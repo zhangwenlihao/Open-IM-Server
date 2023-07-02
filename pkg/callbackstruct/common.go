@@ -1,7 +1,7 @@
 package callbackstruct
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
 )
 
 type CommonCallbackReq struct {

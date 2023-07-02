@@ -3,10 +3,10 @@ package msg
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/tokenverify"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/tokenverify"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 func (m *msgServer) PullMessageBySeqs(ctx context.Context, req *sdkws.PullMessageBySeqsReq) (*sdkws.PullMessageBySeqsResp, error) {

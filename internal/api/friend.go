@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/a2r"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/friend"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/rpcclient"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/a2r"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/friend"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/rpcclient"
 
 	"github.com/gin-gonic/gin"
 )

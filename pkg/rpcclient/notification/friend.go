@@ -3,15 +3,15 @@ package notification
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/convert"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/controller"
-	relationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	pbFriend "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/friend"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/rpcclient"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/convert"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/controller"
+	relationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	pbFriend "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/friend"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/rpcclient"
 )
 
 type FriendNotificationSender struct {

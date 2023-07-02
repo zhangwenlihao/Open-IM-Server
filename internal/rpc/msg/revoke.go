@@ -3,17 +3,18 @@ package msg
 import (
 	"context"
 	"encoding/json"
-	"github.com/google/uuid"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	unRelationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/tokenverify"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/google/uuid"
+
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	unRelationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/tokenverify"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 func (m *msgServer) RevokeMsg(ctx context.Context, req *msg.RevokeMsgReq) (*msg.RevokeMsgResp, error) {

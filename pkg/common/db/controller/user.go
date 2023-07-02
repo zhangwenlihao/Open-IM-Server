@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/tx"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/tx"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 type UserDatabase interface {

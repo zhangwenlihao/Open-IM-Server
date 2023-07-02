@@ -3,11 +3,11 @@ package msgtransfer
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/controller"
-	kfk "github.com/OpenIMSDK/Open-IM-Server/pkg/common/kafka"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	pbMsg "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/controller"
+	kfk "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/kafka"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	pbMsg "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
 	"github.com/Shopify/sarama"
 	"google.golang.org/protobuf/proto"
 )

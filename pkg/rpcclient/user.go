@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/tokenverify"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/user"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/tokenverify"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/user"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"google.golang.org/grpc"
 )
 

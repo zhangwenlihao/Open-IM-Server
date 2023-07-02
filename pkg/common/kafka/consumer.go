@@ -3,7 +3,7 @@ package kafka
 import (
 	"sync"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
 
 	"github.com/Shopify/sarama"
 )

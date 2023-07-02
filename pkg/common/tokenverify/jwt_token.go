@@ -3,10 +3,10 @@ package tokenverify
 import (
 	"context"
 	"fmt"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"github.com/golang-jwt/jwt/v4"
 	"time"
 )

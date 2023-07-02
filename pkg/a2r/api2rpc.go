@@ -2,11 +2,11 @@ package a2r
 
 import (
 	"context"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/checker"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/checker"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/apiresp"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/apiresp"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 )

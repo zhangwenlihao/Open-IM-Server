@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
 
-	table "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	table "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

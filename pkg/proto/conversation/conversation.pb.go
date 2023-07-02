@@ -8,7 +8,7 @@ package conversation
 
 import (
 	context "context"
-	wrapperspb "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/wrapperspb"
+	wrapperspb "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/wrapperspb"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

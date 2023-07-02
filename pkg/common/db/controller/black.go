@@ -3,10 +3,10 @@ package controller
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 type BlackDatabase interface {

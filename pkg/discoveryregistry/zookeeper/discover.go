@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
 	"github.com/pkg/errors"
 
 	"github.com/go-zookeeper/zk"

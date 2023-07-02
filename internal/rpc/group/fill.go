@@ -2,8 +2,8 @@ package group
 
 import (
 	"context"
-	relationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	relationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 func (s *groupServer) FindGroupMember(ctx context.Context, groupIDs []string, userIDs []string, roleLevels []int32) ([]*relationTb.GroupMemberModel, error) {

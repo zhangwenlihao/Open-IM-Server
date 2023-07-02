@@ -4,14 +4,14 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"go.mongodb.org/mongo-driver/bson"
 
-	unRelationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/unrelation"
+	unRelationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/unrelation"
 
 	"testing"
 	"time"

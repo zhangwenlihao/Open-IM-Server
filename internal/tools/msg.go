@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/controller"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/tx"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/controller"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/tx"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 type MsgTool struct {

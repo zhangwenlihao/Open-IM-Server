@@ -2,7 +2,7 @@ syntax = "proto3";
 package OpenIMServer.msg;
 import "sdkws/sdkws.proto";
 import "wrapperspb/wrapperspb.proto";
-option go_package = "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg";
+option go_package = "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg";
 
 message MsgDataToMQ{
   string token = 1;

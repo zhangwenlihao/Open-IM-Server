@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/controller"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/localcache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	pbPush "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/push"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/rpcclient"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/controller"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/localcache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	pbPush "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/push"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/rpcclient"
 	"google.golang.org/grpc"
 )
 

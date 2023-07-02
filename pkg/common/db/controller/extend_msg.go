@@ -3,9 +3,9 @@ package controller
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	unRelationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/tx"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	unRelationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/tx"
 )
 
 // for mongoDB

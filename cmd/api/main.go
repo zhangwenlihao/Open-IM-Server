@@ -12,14 +12,14 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/OpenIMSDK/Open-IM-Server/internal/api"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/cmd"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	openKeeper "github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry/zookeeper"
+	"github.com/xiaoyiEdu/Open-IM-Server/internal/api"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/cmd"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	openKeeper "github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry/zookeeper"
 )
 
 func main() {

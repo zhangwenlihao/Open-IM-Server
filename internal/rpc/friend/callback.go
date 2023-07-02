@@ -3,13 +3,13 @@ package friend
 import (
 	"context"
 
-	cbapi "github.com/OpenIMSDK/Open-IM-Server/pkg/callbackstruct"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/http"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
-	pbfriend "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/friend"
+	cbapi "github.com/xiaoyiEdu/Open-IM-Server/pkg/callbackstruct"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/http"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
+	pbfriend "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/friend"
 )
 
 func CallbackBeforeAddFriend(ctx context.Context, req *pbfriend.ApplyToAddFriendReq) error {

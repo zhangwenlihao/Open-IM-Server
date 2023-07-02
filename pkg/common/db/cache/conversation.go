@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/relation"
-	relationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
 	"github.com/dtm-labs/rockscache"
 	"github.com/redis/go-redis/v9"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/relation"
+	relationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 )
 
 const (

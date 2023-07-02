@@ -3,10 +3,10 @@ package rpcclient
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/friend"
-	sdkws "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/friend"
+	sdkws "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 	"google.golang.org/grpc"
 )
 

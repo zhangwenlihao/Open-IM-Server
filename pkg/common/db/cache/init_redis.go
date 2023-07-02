@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mw/specialerror"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
 	"github.com/redis/go-redis/v9"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mw/specialerror"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
 )
 
 func NewRedis() (redis.UniversalClient, error) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

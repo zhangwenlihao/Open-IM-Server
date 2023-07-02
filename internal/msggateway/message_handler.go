@@ -3,14 +3,14 @@ package msggateway
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/push"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/push"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/rpcclient"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
 	"github.com/go-playground/validator/v10"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/rpcclient"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 

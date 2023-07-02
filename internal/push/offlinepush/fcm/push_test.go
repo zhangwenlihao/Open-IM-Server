@@ -2,8 +2,8 @@ package fcm
 
 import (
 	"context"
-	"github.com/OpenIMSDK/Open-IM-Server/internal/push/offlinepush"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/cache"
+	"github.com/xiaoyiEdu/Open-IM-Server/internal/push/offlinepush"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/cache"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
 	utils "github.com/OpenIMSDK/open_utils"
 )
 

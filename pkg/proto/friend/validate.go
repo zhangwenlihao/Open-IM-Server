@@ -1,6 +1,6 @@
 package friend
 
-import "github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
+import "github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
 
 func (m *ApplyToAddFriendReq) Check() error {
 	if m.GetToUserID() == "" {

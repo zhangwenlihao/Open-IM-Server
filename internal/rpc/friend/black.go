@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/convert"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/tokenverify"
-	pbFriend "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/friend"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/convert"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/tokenverify"
+	pbFriend "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/friend"
 )
 
 func (s *friendServer) GetPaginationBlacks(ctx context.Context, req *pbFriend.GetPaginationBlacksReq) (resp *pbFriend.GetPaginationBlacksResp, err error) {

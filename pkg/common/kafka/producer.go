@@ -4,16 +4,16 @@ import (
 	"context"
 	"errors"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	log "github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/mcontext"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	log "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/mcontext"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 
 	"github.com/Shopify/sarama"
 	"google.golang.org/protobuf/proto"
 
-	prome "github.com/OpenIMSDK/Open-IM-Server/pkg/common/prome"
+	prome "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/prome"
 )
 
 var errEmptyMsg = errors.New("binary msg is empty")

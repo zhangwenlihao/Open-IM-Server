@@ -8,10 +8,10 @@
 
 <p align=center>
 <a href="https://goreportcard.com/report/github.com/OpenIMSDK/Open-IM-Server"><img src="https://goreportcard.com/badge/github.com/OpenIMSDK/Open-IM-Server" alt="A+"></a>
-<a href="https://github.com/OpenIMSDK/Open-IM-Server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/OpenIMSDK/Open-IM-Server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
+<a href="https://github.com/xiaoyiEdu/Open-IM-Server/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/OpenIMSDK/Open-IM-Server/good%20first%20issue?logo=%22github%22" alt="good first"></a>
 <a href="https://github.com/OpenIMSDK/Open-IM-Server"><img src="https://img.shields.io/github/stars/OpenIMSDK/Open-IM-Server.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
 <a href="https://join.slack.com/t/openimsdk/shared_invite/zt-1tmoj26uf-_FDy3dowVHBiGvLk9e5Xkg"><img src="https://img.shields.io/badge/Slack-100%2B-blueviolet?logo=slack&amp;logoColor=white"></a>
-<a href="https://github.com/OpenIMSDK/Open-IM-Server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
+<a href="https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
 <a href="https://golang.org/"><img src="https://img.shields.io/badge/Language-Go-blue.svg"></a>
 </p>
 
@@ -83,7 +83,7 @@ Open-IM-Server 是一款即时通讯服务器，使用纯 Golang 开发，采用
       ./check_all.sh
       ```
 
-      ![https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/Open-IM-Servers-on-System.png](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/Open-IM-Servers-on-System.png)
+      ![https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/Open-IM-Servers-on-System.png](https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/Open-IM-Servers-on-System.png)
 
 ### 使用源代码部署
 
@@ -162,11 +162,11 @@ Open-IM-Server 是一款即时通讯服务器，使用纯 Golang 开发，采用
 
 ## 认证流程图
 
-![https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/open-im-server.png](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/open-im-server.png)
+![https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/open-im-server.png](https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/open-im-server.png)
 
 ## 架构
 
-![https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/Architecture.jpg](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/Architecture.jpg)
+![https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/Architecture.jpg](https://github.com/xiaoyiEdu/Open-IM-Server/blob/main/docs/Architecture.jpg)
 
 ## 开始开发 OpenIM
 
@@ -180,11 +180,11 @@ Open-IM-Server 是一款即时通讯服务器，使用纯 Golang 开发，采用
 
 我们希望任何人都能参与我们的社区，我们提供礼品和奖励，并欢迎您每周四晚上加入我们。
 
-我们在 [GitHub 讨论](https://github.com/OpenIMSDK/Open-IM-Server/discussions/categories/meeting) 中记录每个 [两周会议](https://github.com/OpenIMSDK/Open-IM-Server/issues/381)，我们的记录写在 [Google 文档](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) 中。
+我们在 [GitHub 讨论](https://github.com/xiaoyiEdu/Open-IM-Server/discussions/categories/meeting) 中记录每个 [两周会议](https://github.com/xiaoyiEdu/Open-IM-Server/issues/381)，我们的记录写在 [Google 文档](https://docs.google.com/document/d/1nx8MDpuG74NASx081JcCpxPgDITNTpIIos0DS6Vr9GU/edit?usp=sharing) 中。
 
 ## 谁在使用 Open-IM-Server
 
-[用户案例研究](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) 页面包括该项目的用户列表。您可以留下 [📝评论](https://github.com/OpenIMSDK/Open-IM-Server/issues/379) 让我们知道您的用例。
+[用户案例研究](https://github.com/OpenIMSDK/community/blob/main/ADOPTERS.md) 页面包括该项目的用户列表。您可以留下 [📝评论](https://github.com/xiaoyiEdu/Open-IM-Server/issues/379) 让我们知道您的用例。
 
 ![https://github.com/OpenIMSDK/OpenIM-Docs/blob/main/docs/images/WechatIMG20.jpeg](https://github.com/OpenIMSDK/OpenIM-Docs/blob/main/docs/images/WechatIMG20.jpeg)
 

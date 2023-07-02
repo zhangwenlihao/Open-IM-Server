@@ -8,7 +8,7 @@ package kafka
 
 import (
 	"context"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
 
 	"github.com/Shopify/sarama"
 )

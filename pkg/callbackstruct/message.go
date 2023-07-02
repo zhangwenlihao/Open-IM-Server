@@ -1,8 +1,8 @@
 package callbackstruct
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
-	sdkws "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
+	sdkws "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 )
 
 type CallbackBeforeSendSingleMsgReq struct {

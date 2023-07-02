@@ -2,9 +2,10 @@ package third
 
 import (
 	"context"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/tokenverify"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/third"
 	"time"
+
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/tokenverify"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/third"
 )
 
 func (t *thirdServer) ApplyPut(ctx context.Context, req *third.ApplyPutReq) (*third.ApplyPutResp, error) {

@@ -1,8 +1,8 @@
 package convert
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 )
 
 func MsgPb2DB(msg *sdkws.MsgData) *unrelation.MsgDataModel {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/cmd"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/cmd"
 )
 
 func main() {

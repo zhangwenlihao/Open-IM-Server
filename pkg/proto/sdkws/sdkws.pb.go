@@ -7,7 +7,7 @@
 package sdkws
 
 import (
-	wrapperspb "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/wrapperspb"
+	wrapperspb "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/wrapperspb"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

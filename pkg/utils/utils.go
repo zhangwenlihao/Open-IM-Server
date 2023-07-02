@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/unrelation"
-	sdkws "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/unrelation"
+	sdkws "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 	"github.com/jinzhu/copier"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"

@@ -1,6 +1,6 @@
 syntax = "proto3";
 package OpenIMServer.third;
-option go_package = "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/third";
+option go_package = "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/third";
 
 message ApplyPutReq {
   string putID = 1;

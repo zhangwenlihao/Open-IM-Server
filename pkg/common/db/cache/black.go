@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	relationTb "github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
 	"github.com/dtm-labs/rockscache"
 	"github.com/redis/go-redis/v9"
+	relationTb "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
 )
 
 const (

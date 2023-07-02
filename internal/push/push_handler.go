@@ -3,14 +3,14 @@ package push
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	kfk "github.com/OpenIMSDK/Open-IM-Server/pkg/common/kafka"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/log"
-	pbChat "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
-	pbPush "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/push"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
 	"github.com/Shopify/sarama"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	kfk "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/kafka"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/log"
+	pbChat "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
+	pbPush "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/push"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 

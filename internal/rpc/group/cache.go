@@ -3,8 +3,8 @@ package group
 import (
 	"context"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/convert"
-	pbGroup "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/group"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/convert"
+	pbGroup "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/group"
 )
 
 func (s *groupServer) GetGroupInfoCache(ctx context.Context, req *pbGroup.GetGroupInfoCacheReq) (resp *pbGroup.GetGroupInfoCacheResp, err error) {

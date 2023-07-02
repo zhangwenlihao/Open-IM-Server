@@ -3,8 +3,8 @@ package group
 import (
 	"time"
 
-	pbGroup "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/group"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
+	pbGroup "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/group"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
 )
 
 func UpdateGroupInfoMap(group *sdkws.GroupInfoForSet) map[string]any {

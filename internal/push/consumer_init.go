@@ -1,7 +1,7 @@
 package push
 
 import (
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/prome"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/prome"
 )
 
 type Consumer struct {

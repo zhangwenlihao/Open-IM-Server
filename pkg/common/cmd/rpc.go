@@ -3,9 +3,9 @@ package cmd
 import (
 	"errors"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/discoveryregistry"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/startrpc"
 	"github.com/spf13/cobra"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/discoveryregistry"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/startrpc"
 	"google.golang.org/grpc"
 )
 

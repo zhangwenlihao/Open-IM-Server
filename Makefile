@@ -18,7 +18,7 @@ all: tidy gen add-copyright format lint cover build
 
 ROOT_PACKAGE=github.com/OpenIMSDK/Open-IM-Server
 # TODO: This is version control for the future
-VERSION_PACKAGE=github.com/OpenIMSDK/Open-IM-Server/pkg/version
+VERSION_PACKAGE=github.com/xiaoyiEdu/Open-IM-Server/pkg/version
 
 # ==============================================================================
 # Includes

@@ -4,10 +4,11 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/OpenIMSDK/Open-IM-Server/internal/push/offlinepush"
-	"github.com/OpenIMSDK/Open-IM-Server/internal/push/offlinepush/jpush/body"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/config"
-	http2 "github.com/OpenIMSDK/Open-IM-Server/pkg/common/http"
+
+	"github.com/xiaoyiEdu/Open-IM-Server/internal/push/offlinepush"
+	"github.com/xiaoyiEdu/Open-IM-Server/internal/push/offlinepush/jpush/body"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/config"
+	http2 "github.com/xiaoyiEdu/Open-IM-Server/pkg/common/http"
 )
 
 type JPush struct{}

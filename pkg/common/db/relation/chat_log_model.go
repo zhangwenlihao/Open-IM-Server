@@ -3,11 +3,11 @@ package relation
 import (
 	"fmt"
 
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/constant"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/common/db/table/relation"
-	pbMsg "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/msg"
-	sdkws "github.com/OpenIMSDK/Open-IM-Server/pkg/proto/sdkws"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/utils"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/constant"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/common/db/table/relation"
+	pbMsg "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/msg"
+	sdkws "github.com/xiaoyiEdu/Open-IM-Server/pkg/proto/sdkws"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/utils"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/jinzhu/copier"
 	"google.golang.org/protobuf/proto"

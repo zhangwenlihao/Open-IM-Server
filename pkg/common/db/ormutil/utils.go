@@ -2,7 +2,7 @@ package ormutil
 
 import (
 	"fmt"
-	"github.com/OpenIMSDK/Open-IM-Server/pkg/errs"
+	"github.com/xiaoyiEdu/Open-IM-Server/pkg/errs"
 	"gorm.io/gorm"
 	"strings"
 )

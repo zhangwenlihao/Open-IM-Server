@@ -1,4 +1,4 @@
-module github.com/OpenIMSDK/Open-IM-Server
+module github.com/xiaoyiEdu/Open-IM-Server
 
 go 1.18
 
